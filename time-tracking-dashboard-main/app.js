@@ -135,23 +135,23 @@ function display(data) {
     lastHours.innerHTML = `Last Month - ${data[0].timeframes.monthly.previous}hrs`;
     // Inject data into box
     playTitle.innerHTML = data[1].title;
-    playHours.innerHTML = `${data[1].timeframes.daily.current}hrs`;
+    playHours.innerHTML = `${data[1].timeframes.monthly.current}hrs`;
     lastPlay.innerHTML = `Last Month - ${data[1].timeframes.monthly.previous}hrs`;
     // Inject data into box
     studyTitle.innerHTML = data[2].title;
-    studyHours.innerHTML = `${data[2].timeframes.daily.current}hrs`;
+    studyHours.innerHTML = `${data[2].timeframes.monthly.current}hrs`;
     lastStudy.innerHTML = `Last Month - ${data[2].timeframes.monthly.previous}hrs`;
     // Inject data into box
     exerciseTitle.innerHTML = data[3].title;
-    exerciseHours.innerHTML = `${data[3].timeframes.daily.current}hrs`;
+    exerciseHours.innerHTML = `${data[3].timeframes.monthly.current}hrs`;
     lastExercise.innerHTML = `Last Month - ${data[3].timeframes.monthly.previous}hrs`;
     // Inject data into box
     socialTitle.innerHTML = data[4].title;
-    socialHours.innerHTML = `${data[4].timeframes.daily.current}hrs`;
+    socialHours.innerHTML = `${data[4].timeframes.monthly.current}hrs`;
     lastSocial.innerHTML = `Last Month - ${data[4].timeframes.monthly.previous}hrs`;
     // Inject data into box
     selfcareTitle.innerHTML = data[5].title;
-    selfcareHours.innerHTML = `${data[5].timeframes.daily.current}hrs`;
+    selfcareHours.innerHTML = `${data[5].timeframes.monthly.current}hrs`;
     lastSelfcare.innerHTML = `Last Month - ${data[5].timeframes.monthly.previous}hrs`;
     monthly.style.color = "white";
     daily.style.color = "#7078c9";
